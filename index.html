@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rock Site</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+             
+        <nav class="navegacion">
+            <div class="logo">
+                <a href="#">Start Bootstrap</a>
+              </div>
+              <div class="menu-toggle">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+               </div>
+          <ul class="link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>       
+      <div class="titulo">
+        <h1>
+          One Page Wonder<br />
+          <span>Will Rock Your Socks Off</span>
+        </h1>
+      </div>
+    </header>
+    <section class="seccion-uno">
+      <div class="seccion-uno__parrafo">
+        <h2>For those about to rock...</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+          asperiores cum dicta dignissimos, eligendi ex excepturi in odio,
+          perspiciatis porro quis quo quos sint sit temporibus. Est facilis quo
+          tenetur?
+        </p>
+      </div>
+      <figure class="seccion-uno__imagen">
+        <img src="assets/images/rock1.jpg" alt="image rock" />
+      </figure>
+    </section>
+    <section class="seccion-dos">
+      <figure class="seccion-dos__imagen">
+        <img src="assets/images/rock3.jpg" alt="image rock" />
+      </figure>
+      <div class="seccion-dos__parrafo">
+        <h2>We salute you!</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+          asperiores cum dicta dignissimos, eligendi ex excepturi in odio,
+          perspiciatis porro quis quo quos sint sit temporibus. Est facilis quo
+          tenetur?
+        </p>
+      </div>
+    </section>
+    <section class="seccion-tres">
+      <div class="seccion-tres__parrafo">
+        <h2>Let there be rock!</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+          asperiores cum dicta dignissimos, eligendi ex excepturi in odio,
+          perspiciatis porro quis quo quos sint sit temporibus. Est facilis quo
+          tenetur?
+        </p>
+      </div>
+      <figure class="seccion-tres__imagen">
+        <img src="assets/images/rock2.jpg" alt="image rock" />
+      </figure>
+    </section>
+    <footer>
+      <p>Copyright &#169; Your Website 2017</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".header__menu").click(function() {
+          $(".header__link").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>

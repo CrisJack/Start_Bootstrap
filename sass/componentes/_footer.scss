@@ -1,0 +1,9 @@
+footer{
+    background-color: $color-primario;
+    width: 100%;
+    height: 100px;
+    @include position_footer;
+    p{
+        @include texto_footer;
+    }
+}

@@ -1,0 +1,27 @@
+.seccion-uno {
+  @include position;
+  .seccion-uno__imagen {
+    @include imagen;
+  }
+  .seccion-uno__parrafo {
+    @include texto;
+  }
+}
+.seccion-dos {
+  @include position;
+  .seccion-dos__imagen {
+    @include imagen;
+  }
+  .seccion-dos__parrafo {
+    @include texto;
+  }
+}
+.seccion-tres {
+  @include position;
+  .seccion-tres__imagen {
+    @include imagen;
+  }
+  .seccion-tres__parrafo {
+    @include texto;
+  }
+}
